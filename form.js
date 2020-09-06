@@ -119,7 +119,7 @@ var formSubmitProcessor = function(event) {
 document.addEventListener("DOMContentLoaded", function(){
 	if('undefined' !== typeof document.getElementsByName('phone')[0]) {
 		var phoneMask = IMask(document.getElementsByName('phone')[0], {
-			mask: '+{7}(000) 000-00-00',
+			mask: '{8}(000) 000-00-00',
 			lazy: false,
 			placeholderChar: '_'
 		});
